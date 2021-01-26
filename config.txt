@@ -1,0 +1,2 @@
+appname=ScoRing v0.3b
+arduino=/dev/ttyACM0
