@@ -237,6 +237,15 @@
   <ItemGroup>
     <Library Include="raylib.lib" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="screenshots\01.png" />
+    <Image Include="screenshots\02.png" />
+    <Image Include="screenshots\03.jpg" />
+    <Image Include="screenshots\mole.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.MD" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
