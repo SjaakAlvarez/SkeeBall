@@ -46,7 +46,7 @@ void Counter::draw()
 	float scale = counterSize / 100.0f;
 
 	correction.x = pos.x;
-	correction.y = pos.y + (130*scale);
+	correction.y = pos.y;// +(130 * scale);
 	DrawRectangle(pos.x, pos.y, width * 83*scale, 140*scale, BLACK);
 
 	std::stringstream ss;
